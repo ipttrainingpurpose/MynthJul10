@@ -6,7 +6,7 @@ const common = [
   '--format progress-bar',
   '--format json:reports/cucumber-report.json',
   '--format html:reports/cucumber-report.html',
-  '--format json:allure-results/cucumber-report.json'
+  '--format allure-cucumberjs/reporter'
 ].join(' ');
 
 module.exports = {
