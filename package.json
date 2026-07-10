@@ -1,0 +1,33 @@
+{
+  "name": "demo-webshop-playwright-cucumber",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript + Cucumber (BDD) automation for demowebshop.tricentis.com, converted from the original Selenium + Java + TestNG project.",
+  "scripts": {
+    "install:browsers": "playwright install",
+    "test": "cucumber-js",
+    "test:headed": "cross-env HEADLESS=false cucumber-js",
+    "test:chromium": "cross-env BROWSER=chromium cucumber-js",
+    "test:firefox": "cross-env BROWSER=firefox cucumber-js",
+    "test:webkit": "cross-env BROWSER=webkit cucumber-js",
+    "test:all": "npm run test:chromium && npm run test:firefox && npm run test:webkit",
+    "report:html": "node ./src/support/generateHtmlReport.js"
+  },
+  "keywords": [
+    "playwright",
+    "cucumber",
+    "typescript",
+    "bdd",
+    "demowebshop"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.0.0",
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^20.14.10",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "multiple-cucumber-html-reporter": "^3.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
