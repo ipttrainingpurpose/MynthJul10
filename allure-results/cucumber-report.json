@@ -1,0 +1,571 @@
+[
+  {
+    "description": "  As a logged-in customer\n  I want to configure a custom computer and purchase it\n  So that I can complete an order on Demo Web Shop",
+    "elements": [
+      {
+        "description": "",
+        "id": "build-your-own-computer---add-to-cart-and-checkout;add-a-configured-computer-to-the-cart",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Add a configured computer to the cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4700181200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the Demo Web Shop login page",
+            "match": {
+              "location": "src\\step-definitions\\login.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3699242399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I log in with valid credentials",
+            "match": {
+              "location": "src\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1302703400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to the \"Build your own expensive computer\" product page",
+            "match": {
+              "location": "src\\step-definitions\\buildComputer.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2055665699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I configure the computer with Fast processor, 8GB RAM, 400GB HDD and Office software",
+            "match": {
+              "location": "src\\step-definitions\\buildComputer.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 715610300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I set the quantity to \"2\"",
+            "match": {
+              "location": "src\\step-definitions\\buildComputer.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75799998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I add the computer to the cart",
+            "match": {
+              "location": "src\\step-definitions\\buildComputer.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 572886598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the item should be added to the cart successfully",
+            "match": {
+              "location": "src\\step-definitions\\buildComputer.steps.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39334099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2665260500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "build-your-own-computer---add-to-cart-and-checkout;complete-checkout-for-a-configured-computer",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "Complete checkout for a configured computer",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1444820899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the Demo Web Shop login page",
+            "match": {
+              "location": "src\\step-definitions\\login.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3877267800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I log in with valid credentials",
+            "match": {
+              "location": "src\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 994704199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to the \"Build your own expensive computer\" product page",
+            "match": {
+              "location": "src\\step-definitions\\buildComputer.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1136372099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I configure the computer with Fast processor, 8GB RAM, 400GB HDD and Office software",
+            "match": {
+              "location": "src\\step-definitions\\buildComputer.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1146569099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I set the quantity to \"3\"",
+            "match": {
+              "location": "src\\step-definitions\\buildComputer.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33815799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I add the computer to the cart",
+            "match": {
+              "location": "src\\step-definitions\\buildComputer.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 698573799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I go to the shopping cart",
+            "match": {
+              "location": "src\\step-definitions\\buildComputer.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 803005699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I set delivery country to \"India\" and zip code \"600120\"",
+            "match": {
+              "location": "src\\step-definitions\\buildComputer.steps.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 363215600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "src\\step-definitions\\buildComputer.steps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1407597999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I complete the checkout process with cash on delivery",
+            "match": {
+              "location": "src\\step-definitions\\buildComputer.steps.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7721560198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the order should be placed successfully",
+            "match": {
+              "location": "src\\step-definitions\\buildComputer.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43288299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2083635700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "build-your-own-computer---add-to-cart-and-checkout",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Build Your Own Computer - Add to Cart and Checkout",
+    "tags": [],
+    "uri": "features\\buildComputer.feature"
+  },
+  {
+    "description": "  As a logged-in customer\n  I want to hover over the \"Shopping cart\" link and click \"Go to cart\"\n  So that I can view the contents of my cart",
+    "elements": [
+      {
+        "description": "",
+        "id": "shopping-cart-hover-navigation;navigate-to-the-cart-page-via-the-hover-dropdown",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Navigate to the cart page via the hover dropdown",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1735927100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the Demo Web Shop login page",
+            "match": {
+              "location": "src\\step-definitions\\login.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3166917200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I log in with valid credentials",
+            "match": {
+              "location": "src\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 981590599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to the \"Build your own expensive computer\" product page",
+            "match": {
+              "location": "src\\step-definitions\\buildComputer.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2273757198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I hover over the shopping cart link and click go to cart",
+            "match": {
+              "location": "src\\step-definitions\\hoverShoppingCart.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6131223499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should be navigated to the shopping cart page",
+            "match": {
+              "location": "src\\step-definitions\\hoverShoppingCart.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79054200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1192817499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "shopping-cart-hover-navigation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Shopping Cart Hover Navigation",
+    "tags": [],
+    "uri": "features\\hoverShoppingCart.feature"
+  },
+  {
+    "description": "  As a registered user of Demo Web Shop\n  I want to log in with valid credentials\n  So that I can access my account and shop",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;successful-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Successful login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1500173699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the Demo Web Shop login page",
+            "match": {
+              "location": "src\\step-definitions\\login.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3017483998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I log in with valid credentials",
+            "match": {
+              "location": "src\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 897232499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "src\\step-definitions\\login.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 428437299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1272423500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\login.feature"
+  },
+  {
+    "description": "  As a visitor of Demo Web Shop\n  I want the top navigation menu to display all category items\n  So that I can browse products by category",
+    "elements": [
+      {
+        "description": "",
+        "id": "top-menu-navigation;verify-the-top-menu-items-and-their-count",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify the top menu items and their count",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1674785000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the Demo Web Shop home page",
+            "match": {
+              "location": "src\\step-definitions\\menuItems.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4072536998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I inspect the top navigation menu",
+            "match": {
+              "location": "src\\step-definitions\\menuItems.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131323499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the menu should contain at least 1 item",
+            "match": {
+              "location": "src\\step-definitions\\menuItems.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4898999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "a screenshot of the home page should be captured",
+            "match": {
+              "location": "src\\step-definitions\\menuItems.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 329821499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1197698600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "top-menu-navigation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Top Menu Navigation",
+    "tags": [],
+    "uri": "features\\menuItems.feature"
+  }
+]

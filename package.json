@@ -10,7 +10,10 @@
     "test:firefox": "cross-env BROWSER=firefox cucumber-js",
     "test:webkit": "cross-env BROWSER=webkit cucumber-js",
     "test:all": "npm run test:chromium && npm run test:firefox && npm run test:webkit",
-    "report:html": "node ./src/support/generateHtmlReport.js"
+    "report:html": "node ./src/support/generateHtmlReport.js",
+    "report:allure": "allure generate allure-results -o allure-report --clean",
+    "report:allure:open": "allure open allure-report",
+    "test:allure": "npm run test && npm run report:allure && npm run report:allure:open"
   },
   "keywords": [
     "playwright",

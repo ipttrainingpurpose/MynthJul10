@@ -5,7 +5,8 @@ const common = [
   '--require src/step-definitions/**/*.ts',
   '--format progress-bar',
   '--format json:reports/cucumber-report.json',
-  '--format html:reports/cucumber-report.html'
+  '--format html:reports/cucumber-report.html',
+  '--format json:allure-results/cucumber-report.json'
 ].join(' ');
 
 module.exports = {
