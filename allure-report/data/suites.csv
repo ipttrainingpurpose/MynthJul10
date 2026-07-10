@@ -1,16 +1,16 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"As a registered user of Demo Web Shop
-  I want to log in with valid credentials
-  So that I can access my account and shop","11949","Successful login with valid credentials","","2026-07-10","passed","2026-07-10","","","",""
 "As a visitor of Demo Web Shop
   I want the top navigation menu to display all category items
   So that I can browse products by category","14374","Verify the top menu items and their count","","2026-07-10","passed","2026-07-10","","","",""
 "As a logged-in customer
-  I want to hover over the ""Shopping cart"" link and click ""Go to cart""
-  So that I can view the contents of my cart","20905","Navigate to the cart page via the hover dropdown","","2026-07-10","passed","2026-07-10","","","",""
+  I want to configure a custom computer and purchase it
+  So that I can complete an order on Demo Web Shop","26749","Complete checkout for a configured computer","","2026-07-10","passed","2026-07-10","","","",""
 "As a logged-in customer
   I want to configure a custom computer and purchase it
   So that I can complete an order on Demo Web Shop","21151","Add a configured computer to the cart","","2026-07-10","passed","2026-07-10","","","",""
+"As a registered user of Demo Web Shop
+  I want to log in with valid credentials
+  So that I can access my account and shop","11949","Successful login with valid credentials","","2026-07-10","passed","2026-07-10","","","",""
 "As a logged-in customer
-  I want to configure a custom computer and purchase it
-  So that I can complete an order on Demo Web Shop","26749","Complete checkout for a configured computer","","2026-07-10","passed","2026-07-10","","","",""
+  I want to hover over the ""Shopping cart"" link and click ""Go to cart""
+  So that I can view the contents of my cart","20905","Navigate to the cart page via the hover dropdown","","2026-07-10","passed","2026-07-10","","","",""
